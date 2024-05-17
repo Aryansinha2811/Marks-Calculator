@@ -47,20 +47,22 @@ submitValue = () => {
     document.getElementById("total-7").textContent = total7;
     document.getElementById("total-7").style.display = "flex";
 
-    // Log individual totals
-    console.log("Total for subject 1:", total1);
-    console.log("Total for subject 2:", total2);
-    console.log("Total for subject 3:", total3);
-    console.log("Total for subject 4:", total4);
-    console.log("Total for subject 5:", total5);
-    console.log("Total for subject 6:", total6);
-    console.log("Total for subject 7:", total7);
 
     // Calculate and log overall total
     let totalTheoryMarks = TheoryCalculation(Theory1) + TheoryCalculation(Theory2) + TheoryCalculation(Theory3) + TheoryCalculation(Theory4) + TheoryCalculation(Theory5) + TheoryCalculation(Theory6) + TheoryCalculation(Theory7);
+
     let totalAssignmentMarks = AssignmentCalculation(AssignmentMark1) + AssignmentCalculation(AssignmentMark2) + AssignmentCalculation(AssignmentMark3) + AssignmentCalculation(AssignmentMark4) + AssignmentCalculation(AssignmentMark5) + AssignmentCalculation(AssignmentMark6) + AssignmentCalculation(AssignmentMark7);
-    
-    TotalCalculation(totalTheoryMarks, totalAssignmentMarks);
+
+    let Result = TotalCalculation(totalTheoryMarks, totalAssignmentMarks); document.getElementById("totalMarksObtained").innerHTML = "Total marks Obtained :- "+ Result;
+
+    let TotalPercentage = TotalPercent(Result);
+    document.getElementById("totalPercentage").innerHTML = "Total Percentage Obtained :- " + TotalPercentage + "%";
+}
+
+// Function to calculate single combined total for theory and assignment
+SingleCalculation = (theory, assignment) => {
+    let singleCalc = theory + assignment;
+    return singleCalc;
 }
 
 // Function to calculate theory marks for a subject
@@ -80,11 +82,43 @@ AssignmentCalculation = (assignment) => {
 // Function to calculate total marks
 TotalCalculation = (totalTheory, totalAssignment) => {
     let totalMarks = totalTheory + totalAssignment;
-    console.log("Total Marks:", totalMarks);
+    return totalMarks;
 }
 
-// Function to calculate single combined total for theory and assignment
-SingleCalculation = (theory, assignment) => {
-    let singleCalc = theory + assignment;
-    return singleCalc;
+// Function to calculate the percentange obtained 
+TotalPercent = (result) => {
+    let percent = result/700 * 100;
+    return percent;
+}
+
+// Function to clear all input fields and results
+clearFields = () => {
+    // Clear all input fields
+    document.getElementById("theory-1").value = '';
+    document.getElementById("theory-2").value = '';
+    document.getElementById("theory-3").value = '';
+    document.getElementById("theory-4").value = '';
+    document.getElementById("theory-5").value = '';
+    document.getElementById("theory-6").value = '';
+    document.getElementById("theory-7").value = '';
+    document.getElementById("Assignment-1").value = '';
+    document.getElementById("Assignment-2").value = '';
+    document.getElementById("Assignment-3").value = '';
+    document.getElementById("Assignment-4").value = '';
+    document.getElementById("Assignment-5").value = '';
+    document.getElementById("Assignment-6").value = '';
+    document.getElementById("Assignment-7").value = '';
+
+    // Clear all total displays
+    document.getElementById("total-1").textContent = '';
+    document.getElementById("total-2").textContent = '';
+    document.getElementById("total-3").textContent = '';
+    document.getElementById("total-4").textContent = '';
+    document.getElementById("total-5").textContent = '';
+    document.getElementById("total-6").textContent = '';
+    document.getElementById("total-7").textContent = '';
+
+    // Clear overall results
+    document.getElementById("totalMarksObtained").innerHTML = 'Total marks Obtained :-';
+    document.getElementById("totalPercentage").innerHTML = 'Total Percentage Obtained :-';
 }
