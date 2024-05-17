@@ -408,7 +408,7 @@ h3{
 /* Total marks are hidden because it will be shown after the Calculation */
 .Total-marks{
     background-color: transparent;
-    display: none;
+    /* display: none; */
 }
 
 #total-1{
@@ -421,6 +421,7 @@ h3{
     font-size: 16px;
     padding: 4px;
     border-radius: 22px;
+    display: none;
 }
 #total-2{
     display: flex;
@@ -431,6 +432,7 @@ h3{
     font-size: 16px;
     padding: 4px;
     border-radius: 22px;
+    display: none;
 }
 #total-3{
     display: flex;
@@ -441,6 +443,7 @@ h3{
     font-size: 16px;
     padding: 4px;
     border-radius: 22px;
+    display: none;
 }
 #total-4{
     display: flex;
@@ -451,6 +454,7 @@ h3{
     font-size: 16px;
     padding: 4px;
     border-radius: 22px;
+    display: none;
 }
 #total-5{
     display: flex;
@@ -461,6 +465,7 @@ h3{
     font-size: 16px;
     padding: 4px;
     border-radius: 22px;
+    display: none;
 }
 
 #total-6{
@@ -472,6 +477,7 @@ h3{
     font-size: 16px;
     padding: 4px;
     border-radius: 22px;
+    display: none;
 }
 
 #total-7{
@@ -483,6 +489,7 @@ h3{
     font-size: 16px;
     padding: 4px;
     border-radius: 22px;
+    display: none;
 }
 
 #submit{
