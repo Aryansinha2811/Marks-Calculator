@@ -8,7 +8,7 @@
     background-color: #24252A;
 }
 body{
-    height: 1100px;
+    height: 1300px;
 }
 /*---------------------------  Animations  ---------------- */
 @keyframes fadeInOut {
@@ -492,8 +492,34 @@ h3{
     display: none;
 }
 
+.TotalPercent{
+    position: relative;
+    background-color: #ffffff;
+    top: 165px;
+    width: 550px;
+    right: 35px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+#totalMarksObtained{
+    margin: 4px;
+}
+
+#totalPercentage{
+    margin: 2px;
+}
+
 #submit{
     position: relative;
-    top: 160px;
-    left: 600px;
+    top: 200px;
+    left: 690px;
+}
+
+#clear{
+    position: relative;
+    top: 155px;
+    left: 500px;
 }
