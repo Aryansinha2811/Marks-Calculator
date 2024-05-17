@@ -33,6 +33,16 @@ body{
     50% { border-color: black }
 }
 
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
 
 li, a, button{
     font-family: "Montserrat", sans-serif;
@@ -144,6 +154,29 @@ button:hover{
     right: 500px;
     font-size: 25px;
     animation: fadeInOut 2s ease infinite;
+}
+
+.info-ticker {
+    position: relative;
+    top: 115px;
+    width: 100%;
+    background-color: #24252A;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.info-items {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 25s linear infinite;
+}
+
+.info-item {
+    display: inline-block;
+    margin-right: 50px;
 }
 
 .Body-card {
