@@ -8,7 +8,7 @@
     background-color: #24252A;
 }
 body{
-    height: 1360px;
+    height: 1350px;
 }
 /*---------------------------  Animations  ---------------- */
 @keyframes fadeInOut {
@@ -127,8 +127,8 @@ button:hover{
 
 .heading-tag{
     position: relative;
-    top: 40px;
-    right: -200px;
+    top: 20px;
+    right: -210px;
     font-size: 40px;
     font-style: oblique;
     overflow: hidden;
@@ -140,14 +140,14 @@ button:hover{
 
 .para-1{
     position: relative;
-    top: 100px;
-    right: 500px;
+    top: 85px;
+    right: 520px;
     font-size: 25px;
 }
 
 .info-ticker {
     position: relative;
-    top: 115px;
+    top: 100px;
     width: 100%;
     background-color: #24252A;
     color: #fff;
@@ -181,7 +181,7 @@ button:hover{
 .Body-card {
     position: relative;
     background-color: #474a58;
-    top: 140px;
+    top: 130px;
     width: 90%; 
     height: 750px;
     margin: 0 auto; 
@@ -561,7 +561,7 @@ h3{
     background-color: #ffffff;
     top: 165px;
     width: 550px;
-    right: 35px;
+    right: 25px;
     height: 100px;
     margin: 0 auto;
     padding: 20px;
@@ -570,10 +570,16 @@ h3{
 
 #totalMarksObtained{
     margin: 4px;
+    color: #444444;
+    font-style: oblique;
+    font-size: 21px;
 }
 
 #totalPercentage{
-    margin: 2px;
+    margin: 3px;
+    color: #444444;
+    font-style: oblique;
+    font-size: 21px;
 }
 
 #submit{

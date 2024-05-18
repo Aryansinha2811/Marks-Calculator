@@ -17,7 +17,7 @@
                 <li class="list-items"><a href="https://github.com/Aryansinha2811" target="_blank">Github</a></li>
             </ul>
         </nav>
-        <a class="btn" href="#"><button>Contact</button></a>
+        <a class="btn" href="http://www.ignou.ac.in/ignou/studentzone/programmelist" target="_blank"><button>IGNOU</button></a>
     </header>
 
     <section class="section-1">
@@ -55,7 +55,7 @@
             <!-- This is the Theroy Card  -->
             <div class="Theory-card">
                 <h3>Theory Marks (Out of 100)</h3>
-                <form action="#" class="forms-theory">
+                <form action="#" id="myForm" class="forms-theory">
                     <input type="number" id="theory-1" name="number" min="00" max="100" required>
                 </form>
                 <form action="#" class="forms-theory">
@@ -84,7 +84,7 @@
             <!-- This is the Assignment Card  -->
             <div class="Assignment-card">
                 <h3>Assignment Marks (Out of 100)</h3>
-                <form action="#" class="forms-Assignment">
+                <form action="#" id="myForm" class="forms-Assignment">
                     <input type="number" id="Assignment-1" name="number" min="00" max="100" required>
                 </form>
                 <form action="#" class="forms-Assignment">
@@ -127,19 +127,23 @@
         </div>
     </section>
 
+        <!-- This is to show Total Marks and Total Percent   -->
     <div class="TotalPercent">
         <h3 id="totalMarksObtained">Total marks Obtained :- </h3>
         <h3 id="totalPercentage">Total Percentage Obtained :- </h3>
     </div>
 
-    <div class="submitButton">
-        <button id="submit" onclick="submitValue()">Submit Marks</button>
-    </div>
-
-    <div class="clearButton">
-        <button id="clear" onclick="clearFields()">Clear</button>
-    </div>
+        <!-- This is the Submit Button  -->
+        <div class="submitButton">
+            <button id="submit" onclick="submitValue()">Submit Marks</button>
+        </div>
+        
+        <!-- This is the Clear all Button  -->
+        <div class="clearButton">
+            <button id="clear" onclick="clearFields()">Clear</button>
+        </div>
 
     <script src="/script.js"></script>
+
 </body>
 </html>
