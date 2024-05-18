@@ -461,7 +461,6 @@ h3{
 /* Total marks are hidden because it will be shown after the Calculation */
 .Total-marks{
     background-color: transparent;
-    /* display: none; */
 }
 
 #total-1{
