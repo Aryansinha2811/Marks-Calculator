@@ -8,7 +8,7 @@
     background-color: #24252A;
 }
 body{
-    height: 1300px;
+    height: 1360px;
 }
 /*---------------------------  Animations  ---------------- */
 @keyframes fadeInOut {
@@ -183,7 +183,7 @@ button:hover{
     background-color: #474a58;
     top: 140px;
     width: 90%; 
-    height: 700px;
+    height: 750px;
     margin: 0 auto; 
     padding: 20px; 
     border-radius: 50px;
@@ -196,7 +196,7 @@ button:hover{
     top: 10px;
     width: 150px; 
     right: 530px ;
-    height: 640px;
+    height: 690px;
     margin: 0 auto; 
     padding: 20px; 
     border-radius: 40px;
@@ -220,10 +220,10 @@ h3{
 .Theory-card{
     position: relative;
     background-color: #ffffff;
-    top: -630px;
+    top: -677px;
     width: 350px;
     right: 245px;
-    height: 640px;
+    height: 690px;
     margin: 0 auto; 
     padding: 20px; 
     border-radius: 40px;
@@ -244,7 +244,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -254,7 +254,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -265,7 +265,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -276,7 +276,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -287,7 +287,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -298,7 +298,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -309,21 +309,31 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 36px;
+}
+
+#theory-8{
+    background-color: transparent;
+    width: 95px;
+    padding: 8px;
+    font-size: 16px;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
 }
 
 
-
 .Assignment-card{
     position: relative;
     background-color: #ffffff;
-    top: -1270px;
+    top: -1366px;
     width: 350px;
     right: -140px;
-    height: 640px;
+    height: 690px;
     margin: 0 auto; 
     padding: 20px; 
     border-radius: 40px;
@@ -343,7 +353,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -353,7 +363,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -364,7 +374,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -375,7 +385,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -386,7 +396,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -397,7 +407,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -408,7 +418,7 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -419,7 +429,18 @@ h3{
     width: 95px;
     padding: 8px;
     font-size: 16px;
-    border: 2px solid #444444;
+    border: 3px solid #444444;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 36px;
+}
+
+#Assignment-8 {
+    background-color: transparent;
+    width: 95px;
+    padding: 8px;
+    font-size: 16px;
+    border: 3px solid #444444;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 36px;
@@ -428,10 +449,10 @@ h3{
 .Total-card{
     position: relative;
     background-color: #ffffff;
-    top: -1910px;
+    top: -2055px;
     width: 250px;
     right: -466px;
-    height: 640px;
+    height: 690px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 40px;
@@ -513,6 +534,18 @@ h3{
 }
 
 #total-7{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-top: 45px;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 22px;
+    display: none;
+}
+
+#total-8{
     display: flex;
     justify-content: center;
     background-color: transparent;
