@@ -23,15 +23,6 @@ body{
     }
 }
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
-}
 
 @keyframes scroll {
     0% {
@@ -142,10 +133,9 @@ button:hover{
     font-style: oblique;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 2px solid black;
     margin: 0 auto;
-    animation: typing 3s steps(35), blink-caret 1s step-end infinite;
-    display: inline-block;
+    animation: fadeInOut 2.5s ease infinite;
+    display: flex;
 }
 
 .para-1{
@@ -153,7 +143,6 @@ button:hover{
     top: 100px;
     right: 500px;
     font-size: 25px;
-    animation: fadeInOut 2s ease infinite;
 }
 
 .info-ticker {
@@ -168,10 +157,20 @@ button:hover{
     padding: 10px 0;
 }
 
+#grade-Card{
+    color: rgb(38, 111, 255);
+    margin-left: 2px;
+}
+
+#grade-Card:hover{
+    color: #656565;
+    cursor: pointer;
+}
+
 .info-items {
     display: inline-block;
     padding-left: 100%;
-    animation: scroll 25s linear infinite;
+    animation: scroll 30s linear infinite;
 }
 
 .info-item {
