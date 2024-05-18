@@ -8,6 +8,7 @@
     background-color: #24252A;
 }
 body{
+    width: fit-content;
     height: 1350px;
 }
 /*---------------------------  Animations  ---------------- */
